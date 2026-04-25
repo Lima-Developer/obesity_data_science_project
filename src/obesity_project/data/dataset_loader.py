@@ -19,7 +19,7 @@ class ObesityDatasetLoader:
     """
 
     dataset_id: int = 544
-    target_column: str = "NObesity"
+    target_column: str = "NObeyesdad"
     random_state: int = 42
     _dataset: Any | None = field(default=None, init=False, repr=False)
     _features: pd.DataFrame | None = field(default=None, init=False, repr=False)
