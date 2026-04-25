@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python src/decision_tree/run.py)",
+      "Bash(pip install *)"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+==============================================================
+  RESULTADOS — Decision Tree | UCI Obesity Levels (id=544)
+==============================================================
+Gerado em        : 2026-04-25 11:27:12
+Tempo de execução: 2.6s
+Amostras treino  : 1688
+Amostras teste   : 423
+Profundidade real: 11
+Número de folhas : 105
+
+Acurácia: 0.9125  (91.25%)
+
+--- Relatório de Classificação ---
+                     precision    recall  f1-score   support
+
+Insufficient_Weight       0.98      0.87      0.92        54
+      Normal_Weight       0.77      0.83      0.80        58
+     Obesity_Type_I       0.94      0.94      0.94        70
+    Obesity_Type_II       0.97      0.97      0.97        60
+   Obesity_Type_III       1.00      0.98      0.99        65
+ Overweight_Level_I       0.82      0.84      0.83        58
+Overweight_Level_II       0.92      0.93      0.92        58
+
+           accuracy                           0.91       423
+          macro avg       0.91      0.91      0.91       423
+       weighted avg       0.92      0.91      0.91       423
+
+--- Importância das Features (completo) ---
+Weight                            0.474104
+Height                            0.216299
+Gender                            0.157929
+Age                               0.042825
+CALC                              0.022879
+FAVC                              0.021763
+FCVC                              0.014855
+TUE                               0.013371
+CAEC                              0.012456
+NCP                               0.009160
+MTRANS                            0.003939
+CH2O                              0.003498
+family_history_with_overweight    0.002786
+FAF                               0.002274
+SMOKE                             0.001863
+SCC                               0.000000
+
+(Matriz de confusão: ver matriz_confusao.csv e matriz_confusao.png)
