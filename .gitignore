@@ -34,3 +34,6 @@ htmlcov/
 
 # Project-local ignored files
 Main.py
+
+# venv
+ciencia_dados/
