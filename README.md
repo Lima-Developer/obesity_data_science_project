@@ -71,7 +71,7 @@ python -m pip install -r requirements.txt
 O projeto possui uma classe reutilizavel para importar os dados da UCI:
 
 ```python
-from obesity_project.data.dataset_loader import ObesityDatasetLoader
+from src.obesity_project.data.dataset_loader import ObesityDatasetLoader
 
 loader = ObesityDatasetLoader()
 loader.load()
