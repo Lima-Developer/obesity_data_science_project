@@ -1,0 +1,44 @@
+==============================================================
+  RESULTADOS — Random Forest | UCI Obesity Levels (id=544)
+==============================================================
+Gerado em : 2026-04-25 10:48:33
+Tempo de execução : 3.9s
+Amostras treino   : 1688
+Amostras teste    : 423
+
+Acurácia: 0.9598  (95.98%)
+
+--- Relatório de Classificação ---
+                     precision    recall  f1-score   support
+
+Insufficient_Weight       1.00      0.93      0.96        54
+      Normal_Weight       0.84      1.00      0.91        58
+     Obesity_Type_I       0.97      0.97      0.97        70
+    Obesity_Type_II       0.98      0.98      0.98        60
+   Obesity_Type_III       1.00      0.98      0.99        65
+ Overweight_Level_I       0.98      0.90      0.94        58
+Overweight_Level_II       0.96      0.95      0.96        58
+
+           accuracy                           0.96       423
+          macro avg       0.96      0.96      0.96       423
+       weighted avg       0.96      0.96      0.96       423
+
+--- Importância das Features (completo) ---
+Weight                            0.341439
+Height                            0.102434
+Age                               0.096535
+FCVC                              0.085718
+Gender                            0.060835
+NCP                               0.051660
+FAF                               0.043332
+TUE                               0.042352
+CH2O                              0.041135
+CAEC                              0.033656
+CALC                              0.029484
+family_history_with_overweight    0.029110
+MTRANS                            0.018418
+FAVC                              0.016170
+SCC                               0.005425
+SMOKE                             0.002296
+
+(Matriz de confusão: ver matriz_confusao.csv e matriz_confusao.png)
